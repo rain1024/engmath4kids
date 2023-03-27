@@ -1,15 +1,15 @@
 answer: Square
 description: As Sarah was playing basketball with her friends, she realized that the
-  ball they were using had a unique shape.\nCan you help her identify the shape of
-  a basketball?
+  ball they were using had a unique shape.<br/>Can you help her identify the shape
+  of a basketball?
 final: true
 id: 4
 image: cows.png
 name: basketbal
 options:
-- value: Rectangle
 - value: Square
-- value: Triangle
+- value: Rectangle
 - value: Circle
+- value: Triangle
 tags: shape
 title: Basketball
