@@ -1,8 +1,7 @@
-<h1 align="center">Problem 1</h1>
-
-<h2 align="center">
+<h1 align="center">
+Problem 1<br>
 How many cows are there?
-</h2>
+</h1>
 
 <p align="center">
 <img src="cows.png" height="512"/>
