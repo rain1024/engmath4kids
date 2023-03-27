@@ -8,6 +8,10 @@
   name: Addition
 - id: subtraction
   name: Subtraction
+- id: multiplication
+  name: Multiplication
+- id: division
+  name: Division
 - id: pattern
   name: Pattern
 - id: measurement
