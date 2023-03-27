@@ -10,7 +10,7 @@ How many cows are there?
 
 <h4 align="center">
   <span><a href="">A. 1</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
-  <span><a href="">B. 2</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+  <span><a href="/assets/win0.png">B. 2</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
   <span><a href="">C. 3</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
   <span><a href="">D. 4</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
 </h4>
