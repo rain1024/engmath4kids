@@ -3,7 +3,7 @@ Problem 5: Hungry squirrels
 </h1>
 
 <h4 align="center">
-In the forest, Nutmeg, Pecan, Chestnut, and Walnut, four hungry squirrels, found three acorns, and they all wanted to have a taste of the delicious treat<br/> Are there enough acorns for every squirrel?
+In the forest, Nutmeg, Pecan, Chestnut, and Walnut, four hungry squirrels, found three acorns, and they all wanted to have a taste of the delicious treat.<br/> Are there enough acorns for every squirrel?
 </h4>
 
 <p align="center">
