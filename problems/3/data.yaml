@@ -1,9 +1,13 @@
-id: 1
-name: 
-description: 
-answers:
+answer: 3
+description: ''
+final: true
+id: 3
+image: chickens.png
+name: how-many-chickens
+options:
 - value: 10
-- value: 10
-- value: 5
-- value: 10
+- value: 6
+- value: 9
+- value: 3
 tags: counting
+title: How many chickens are there?
