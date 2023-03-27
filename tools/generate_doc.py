@@ -31,15 +31,15 @@ Problem {self.data['id']}: {self.data['title']}
 </h1>
 """
         if "description" in self.data:
-            content += f"""\
-<h2 align="center">
+            content += f"""
+<p align="center">
 {self.data['description']}
-</h2>
+</p>\n
 """
         content += f"""\
 <p align="center">
 <img src="{self.data['image']}" height="512"/>
-</p>
+</p>\n
 """
         content += '<h3 align="center">'
         choices = ['A', 'B', 'C', 'D']

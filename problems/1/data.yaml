@@ -6,8 +6,8 @@ image: cows.png
 name: how-many-cows
 options:
 - value: 3
-- value: 2
 - value: 4
+- value: 2
 - value: 1
 tags: counting
 title: How many cows are there?

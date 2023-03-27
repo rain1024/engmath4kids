@@ -7,9 +7,9 @@ id: 4
 image: cows.png
 name: basketbal
 options:
-- value: Square
 - value: Circle
-- value: Triangle
 - value: Rectangle
+- value: Triangle
+- value: Square
 tags: shape
 title: Basketball
