@@ -1,10 +1,13 @@
+answer: 2
+description: null
+final: true
 id: 1
-name: 
-description: 
-answers:
-- value: 10
-- value: 10
-- value: 5
-- value: 10
-solution: 5
+image: cows.png
+name: how-many-cows
+options:
+- value: 2
+- value: 4
+- value: 3
+- value: 1
 tags: counting
+title: How many cows are there?

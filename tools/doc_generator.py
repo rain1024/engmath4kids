@@ -9,21 +9,21 @@ class Problem:
         with open(self.config_file) as f:
             data = yaml.safe_load(f)
         self.data = data
-        print(data)
 
     def build(self, is_force =  False):
         if "final" in self.data and self.data["final"] and not is_force:
             return
         # write README.md file
         if not "title" in self.data:
-            raise Exception(f"Title in problem {self.data['id']} is not defined")
+            raise Exception(f"Title in problem {self.id} is not defined")
+
+        if not "image" in self.data:
+            raise Exception(f"Image in problem {self.id} is not defined")
         
-        print(self.data)
         options = self.data['options']
         answer = self.data['answer']
         random.shuffle(options)
         
-        print(options)
         content = f"""\
 <h1 align="center">
 Problem {self.data['id']}: {self.data['title']}
@@ -50,7 +50,6 @@ Problem {self.data['id']}: {self.data['title']}
         self.data['final'] = True
     
     def save_config(self):
-        print(self.data)
         with open(self.config_file, "w") as f:
             yaml.dump(self.data, f)
 
@@ -64,17 +63,12 @@ class Game:
         for problem in self.problems:
             problem.build()
             problem.save_config()
+        print(f"Problems built: {len(self.problems)}")
 
 if __name__ == '__main__':
-    # game = Game()
-    # game.build_problems()
-    
-    # get first arguement
     import sys
-    print(sys.argv)
     is_force = False
     if(len(sys.argv) > 1):
         is_force = True
-    problem = Problem("3")
-    problem.build(is_force)
-    problem.save_config()
+    game = Game()
+    game.build_problems()

@@ -1,9 +1,13 @@
+answer: 5
+description: null
+final: true
 id: 1
-name: 
-description: 
-answers:
-- value: 10
-- value: 10
+image: sheeps.png
+name: how-many-sheeps
+options:
+- value: 15
 - value: 5
 - value: 10
+- value: 2
 tags: counting
+title: How many sheeps are there?
