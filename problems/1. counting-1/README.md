@@ -4,7 +4,9 @@
 How many cows are there?
 </h4>
 
+<p align="center">
 <img src="cows.png" height="512"/>
+</p>
 
 <table>
   <tr><td>1</td></tr>
