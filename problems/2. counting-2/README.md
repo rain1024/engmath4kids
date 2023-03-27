@@ -10,7 +10,7 @@ How many sheeps are there?
 
 <h4 align="center">
   <span><a href="">A. 3</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
-  <span><a href="">B. 5</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
-  <span><a href="">C. 10</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+  <span><a href="">B. 10</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+  <span><a href="">C. 5</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
   <span><a href="">D. 20</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
 </h4>
