@@ -35,12 +35,13 @@ Problem {self.data['id']}: {self.data['title']}
 
 <h3 align="center">
 """
-        for item in options:
+        choices = ['A', 'B', 'C', 'D']
+        for choice, item in zip(choices, options):
             if item['value'] == answer:
                 result_url = "https://raw.githubusercontent.com/rain1024/math/main/assets/win0.png"
             else:
                 result_url = "https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png"
-            content += f"<span><a href=\"{result_url}\">A. {item['value']}</a></span>"
+            content += f"<span><a href=\"{result_url}\">{choice}. {item['value']}</a></span>"
             content += "&nbsp;&nbsp;&nbsp;&nbsp;\n"
             
         content += "</h3>"
