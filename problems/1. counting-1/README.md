@@ -8,6 +8,7 @@ How many cows are there?
 <img src="cows.png" height="512"/>
 </p>
 
+<p align="center">
 <table>
   <tr>
   <td>1</td>
@@ -15,5 +16,5 @@ How many cows are there?
   <td>3</td>
   <td>4</td>
   </tr>
-  
 </table>
+</p>
