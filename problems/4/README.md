@@ -2,9 +2,9 @@
 Problem 4: Basketball
 </h1>
 
-<p align="center">
+<h4 align="center">
 As Sarah was playing basketball with her friends, she realized that the ball they were using had a unique shape.<br/>Can you help her identify the shape of a basketball?
-</p>
+</h4>
 
 <p align="center">
 <img src="ball.png" height="512"/>
