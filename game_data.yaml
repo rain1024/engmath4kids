@@ -2,3 +2,15 @@
   name: Counting
 - id: shape
   name: Shape
+- id: comparing
+  name: Comparing
+- id: addition
+  name: Addition
+- id: subtraction
+  name: Subtraction
+- id: pattern
+  name: Pattern
+- id: measurement
+  name: Measurement
+- id: money
+  name: Money
