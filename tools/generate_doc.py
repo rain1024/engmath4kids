@@ -32,9 +32,9 @@ Problem {self.data['id']}: {self.data['title']}
 """
         if "description" in self.data:
             content += f"""
-<p align="center">
+<h4 align="center">
 {self.data['description']}
-</p>\n
+</h4>\n
 """
         content += f"""\
 <p align="center">
