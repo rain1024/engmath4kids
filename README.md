@@ -4,5 +4,6 @@ This is a collection of math problems for kids. The problems are written in Mark
 
 ## Counting 
 
-* [1. How many cows are there?](problems/1.%20counting-1/README.md)
-* [2. How many sheeps are there?](problems/2.%20counting-2/README.md)
+* [1. How many cows are there?](problems/1)
+* [2. How many sheeps are there?](problems/2)
+* [3. How many chickens are there?](problems/3)
