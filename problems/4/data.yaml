@@ -4,12 +4,12 @@ description: As Sarah was playing basketball with her friends, she realized that
   of a basketball?
 final: true
 id: 4
-image: cows.png
+image: ball.png
 name: basketbal
 options:
-- value: Square
 - value: Rectangle
-- value: Circle
 - value: Triangle
+- value: Square
+- value: Circle
 tags: shape
 title: Basketball
