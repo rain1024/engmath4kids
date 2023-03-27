@@ -17,6 +17,7 @@ This is a collection of math problems for kids. The problems are written in Mark
 * [5. Hungry squirrels](problems/5)
 ## Addition
 
+* [6. Sharing is Caring](problems/6)
 ## Subtraction
 
 ## Multiplication

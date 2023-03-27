@@ -1,0 +1,15 @@
+answer: 5
+description: Samantha and Jack are classmates who love to share their snacks during
+  recess. Samantha has 3 apples and her friend Jack gives her 2 more.<br/>How many
+  apples does Samantha have in total?
+final: true
+id: 6
+image: cows.png
+name: sharing-is-caring
+options:
+- value: 2
+- value: 7
+- value: 3
+- value: 5
+tags: addition
+title: Sharing is Caring
