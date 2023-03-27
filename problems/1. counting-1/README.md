@@ -9,12 +9,8 @@ How many cows are there?
 </p>
 
 <p align="center">
-<table>
-  <tr>
-  <td>1</td>
-  <td>2</td>
-  <td>3</td>
-  <td>4</td>
-  </tr>
-</table>
+  <span>1</span>&nbsp;
+  <span>2</span>&nbsp;
+  <span>3</span>&nbsp;
+  <span>4</span>&nbsp;
 </p>
