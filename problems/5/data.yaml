@@ -1,0 +1,12 @@
+answer: false
+description: In the forest, Nutmeg, Pecan, Chestnut, and Walnut, four hungry squirrels,
+  found three acorns, and they all wanted to have a taste of the delicious treat
+final: true
+id: 5
+image: enough.png
+name: hungry-squirrels
+options:
+- value: false
+- value: true
+tags: comparing
+title: Hungry squirrels

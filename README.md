@@ -14,11 +14,18 @@ This is a collection of math problems for kids. The problems are written in Mark
 * [4. Basketball](problems/4)
 ## Comparing
 
+* [5. Hungry squirrels](problems/5)
 ## Addition
 
 ## Subtraction
 
+## Multiplication
+
+## Division
+
 ## Pattern
+
+## Time
 
 ## Measurement
 
