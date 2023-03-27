@@ -1,9 +1,10 @@
 # Problem 1
 
-### How many cows are there?
+<h4 align="center">
+How many cows are there?
+</h4>
 
-
-![cows.png](cows.png)
+<img src="cows.png" height="512"/>
 
 <table>
   <tr><td>1</td></tr>
