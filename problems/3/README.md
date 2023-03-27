@@ -3,7 +3,7 @@ Problem 3: How many chickens are there?
 </h1>
 
 <p align="center">
-<img src="sheeps.png" height="512"/>
+<img src="chickens.png" height="512"/>
 </p>
 
 <h3 align="center">
