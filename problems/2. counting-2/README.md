@@ -7,8 +7,8 @@ Problem 2: How many sheeps are there?
 </p>
 
 <h3 align="center">
-  <span><a href="">A. 3</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
-  <span><a href="">B. 10</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+  <span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">A. 3</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+  <span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">B. 10</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
   <span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/win0.png">C. 5</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
-  <span><a href="">D. 20</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+  <span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">D. 20</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
 </h3>
