@@ -34,7 +34,7 @@ Problem {self.data['id']}: {self.data['title']}
 <img src="{self.data['image']}" height="512"/>
 </p>
 
-<h3 align="center">
+<h3 align="center">\
 """
         choices = ['A', 'B', 'C', 'D']
         for choice, item in zip(choices, options):
@@ -67,17 +67,34 @@ class Game:
         print(f"Problems built: {len(self.problems)}")
     
     def build_readme(self):
-        # read readme file
+        # read game data
+        with open("game_data.yaml") as f:
+            topics = yaml.safe_load(f)
+
+        print("Build readme")
         with open("README.md") as f:
             content = f.read()
             # find the start and end of the table
         # replace <!-- BEGIN MATH PROBLEMS --> ... <!-- END MATH PROBLEMS -->
         # with the new table
-        match = re.compile(r"<!-- BEGIN MATH PROBLEMS -->.*<!-- END MATH PROBLEMS -->", re.DOTALL)
-        content = content.replace(match, "## Counting")
+        match = re.compile(r"<!-- BEGIN MATH PROBLEMS -->.*<!-- END MATH PROBLEMS -->", re.MULTILINE | re.DOTALL)
+        text = f"<!-- BEGIN MATH PROBLEMS -->\n\n"
+
+        for topic in topics:
+            text += f"## {topic['name']}\n\n"
+            for problem in self.problems:
+                tags = problem.data['tags'].split(',')
+                if topic['id'] in tags:
+                    text += f"* [{problem.data['id']}. {problem.data['title']}](problems/{problem.id})\n"
+        text += f"\n<!-- END MATH PROBLEMS -->"
+
+        content = re.sub(match, text, content)
+        with open("README.md", "w") as f:
+            f.write(content)
 
     def build_game(self):
         self.build_problems()
+        self.build_readme()
 
 if __name__ == '__main__':
     import sys
@@ -85,4 +102,4 @@ if __name__ == '__main__':
     if(len(sys.argv) > 1):
         is_force = True
     game = Game()
-    game.build_problems()
+    game.build_game()
