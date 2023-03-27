@@ -1,6 +1,7 @@
 from os import listdir
 import yaml
 import random
+import re
 
 class Problem:
     def __init__(self, id) -> None:
@@ -64,6 +65,19 @@ class Game:
             problem.build()
             problem.save_config()
         print(f"Problems built: {len(self.problems)}")
+    
+    def build_readme(self):
+        # read readme file
+        with open("README.md") as f:
+            content = f.read()
+            # find the start and end of the table
+        # replace <!-- BEGIN MATH PROBLEMS --> ... <!-- END MATH PROBLEMS -->
+        # with the new table
+        match = re.compile(r"<!-- BEGIN MATH PROBLEMS -->.*<!-- END MATH PROBLEMS -->", re.DOTALL)
+        content = content.replace(match, "## Counting")
+
+    def build_game(self):
+        self.build_problems()
 
 if __name__ == '__main__':
     import sys
