@@ -1,6 +1,5 @@
 <h1 align="center">
-<small>Problem 1</small><br>
-How many cows are there?
+Problem 1: How many cows are there?
 </h1>
 
 <p align="center">
