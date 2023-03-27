@@ -5,9 +5,9 @@ id: 3
 image: chickens.png
 name: how-many-chickens
 options:
-- value: 3
 - value: 10
 - value: 9
 - value: 6
+- value: 3
 tags: counting
 title: How many chickens are there?
