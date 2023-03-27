@@ -1,13 +1,15 @@
-answer: 2
-description: null
+answer: Square
+description: As Sarah was playing basketball with her friends, she realized that the
+  ball they were using had a unique shape. Can you help her identify the shape of
+  a basketball?
 final: true
-id: 1
+id: 4
 image: cows.png
-name: how-many-cows
+name: basketbal
 options:
-- value: 2
-- value: 4
-- value: 3
-- value: 1
-tags: counting
-title: How many cows are there?
+- value: Rectangle
+- value: Triangle
+- value: Circle
+- value: Square
+tags: shape
+title: Basketball

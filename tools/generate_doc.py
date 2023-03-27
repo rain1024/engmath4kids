@@ -29,13 +29,19 @@ class Problem:
 <h1 align="center">
 Problem {self.data['id']}: {self.data['title']}
 </h1>
-
+"""
+        if "description" in self.data:
+            content += f"""\
+<h2 align="center">
+{self.data['description']}
+</h2>
+"""
+        content += f"""\
 <p align="center">
 <img src="{self.data['image']}" height="512"/>
 </p>
-
-<h3 align="center">\
 """
+        content += '<h3 align="center">'
         choices = ['A', 'B', 'C', 'D']
         for choice, item in zip(choices, options):
             if item['value'] == answer:
@@ -44,8 +50,8 @@ Problem {self.data['id']}: {self.data['title']}
                 result_url = "https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png"
             content += f"<span><a href=\"{result_url}\">{choice}. {item['value']}</a></span>"
             content += "&nbsp;&nbsp;&nbsp;&nbsp;\n"
-            
         content += "</h3>"
+
         with open(f"problems/{self.id}/README.md", "w") as f:       
             f.write(content)
         self.data['final'] = True
@@ -60,9 +66,10 @@ class Game:
         folders = listdir("problems")
         self.problems = [Problem(id) for id in folders]
     
-    def build_problems(self):
+    def build_problems(self, **kwargs):
+        is_force = kwargs.get('is_force', False)
         for problem in self.problems:
-            problem.build()
+            problem.build(is_force)
             problem.save_config()
         print(f"Problems built: {len(self.problems)}")
     
@@ -92,8 +99,8 @@ class Game:
         with open("README.md", "w") as f:
             f.write(content)
 
-    def build_game(self):
-        self.build_problems()
+    def build_game(self, **kwargs):
+        self.build_problems(**kwargs)
         self.build_readme()
 
 if __name__ == '__main__':
@@ -102,4 +109,4 @@ if __name__ == '__main__':
     if(len(sys.argv) > 1):
         is_force = True
     game = Game()
-    game.build_game()
+    game.build_game(is_force=is_force)
