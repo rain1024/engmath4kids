@@ -8,9 +8,9 @@ How many cows are there?
 <img src="cows.png" height="512"/>
 </p>
 
-<p align="center">
-  <span><a href="">1</a></span>&nbsp;
-  <span><a href="">2</a></span>&nbsp;
-  <span><a href="">3</a></span>&nbsp;
-  <span><a href="">4</a></span>&nbsp;
-</p>
+<h4 align="center">
+  <span><a href="">A. 1</a></span>&nbsp;
+  <span><a href="">B. 2</a></span>&nbsp;
+  <span><a href="">C. 3</a></span>&nbsp;
+  <span><a href="">D. 4</a></span>&nbsp;
+</h4>
