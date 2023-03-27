@@ -14,6 +14,8 @@
   name: Division
 - id: pattern
   name: Pattern
+- id: time
+  name: Time
 - id: measurement
   name: Measurement
 - id: money
