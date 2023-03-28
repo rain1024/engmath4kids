@@ -1,4 +1,4 @@
-answer: 2
+answer: 4
 description: Julia has 6 balloons, but she accidentally lets go of 2.<br/>How many
   balloons does Julia have left?
 final: true
@@ -6,9 +6,9 @@ id: 11
 image: image.png
 name: Balloon Bonanza
 options:
-- value: 2
-- value: 1
 - value: 3
+- value: 2
 - value: 4
+- value: 1
 tags: subtraction
 title: Balloon Bonanza
