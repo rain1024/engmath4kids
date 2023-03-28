@@ -4,12 +4,12 @@ description: Samantha and Jack are classmates who love to share their snacks dur
   apples does Samantha have in total?
 final: true
 id: 6
-image: cows.png
+image: sharing.png
 name: sharing-is-caring
 options:
 - value: 2
-- value: 7
 - value: 3
+- value: 7
 - value: 5
 tags: addition
 title: Sharing is Caring
