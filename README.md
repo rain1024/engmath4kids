@@ -21,6 +21,7 @@ This is a collection of math problems for kids. The problems are written in Mark
 ## Subtraction
 
 * [10. Wilted Woes](problems/10)
+* [11. Balloon Bonanza](problems/11)
 * [7. Birds on a Branch: Who's Left?](problems/7)
 * [8. Lost and Found](problems/8)
 * [9. Oopsie Daisy](problems/9)
