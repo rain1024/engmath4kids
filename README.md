@@ -28,6 +28,7 @@ This is a collection of math problems for kids. The problems are written in Mark
 * [12. Bunch of Bananas](problems/12)
 ## Multiplication
 
+* [13. Pizza Party](problems/13)
 ## Division
 
 ## Pattern

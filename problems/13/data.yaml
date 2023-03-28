@@ -1,0 +1,13 @@
+answer: 12
+description: Zoe ordered 3 pizzas with 4 slices each. How many slices of pizza does
+  she have in total?
+final: true
+id: 13
+image: image.png
+options:
+- value: 7
+- value: 12
+- value: 9
+- value: 13
+tags: multiplication
+title: Pizza Party
