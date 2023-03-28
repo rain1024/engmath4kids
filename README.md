@@ -20,6 +20,7 @@ This is a collection of math problems for kids. The problems are written in Mark
 * [6. Sharing is Caring](problems/6)
 ## Subtraction
 
+* [10. Wilted Woes](problems/10)
 * [7. Birds on a Branch: Who's Left?](problems/7)
 * [8. Lost and Found](problems/8)
 * [9. Oopsie Daisy](problems/9)

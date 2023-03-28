@@ -5,9 +5,9 @@ id: 2
 image: sheeps.png
 name: how-many-sheeps
 options:
+- value: 15
 - value: 5
 - value: 2
 - value: 10
-- value: 15
 tags: counting
 title: How many sheeps are there?

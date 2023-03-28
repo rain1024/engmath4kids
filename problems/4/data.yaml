@@ -7,9 +7,9 @@ id: 4
 image: ball.png
 name: basketbal
 options:
-- value: Triangle
-- value: Rectangle
 - value: Square
 - value: Circle
+- value: Rectangle
+- value: Triangle
 tags: shape
 title: Basketball

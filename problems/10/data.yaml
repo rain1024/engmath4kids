@@ -1,0 +1,14 @@
+answer: 6
+description: There were 7 flowers in a vase, but 1 of them wilted and had to be thrown
+  away.<br/>How many flowers are left in the vase?
+final: true
+id: 10
+image: image.png
+name: Wilted Woes
+options:
+- value: 1
+- value: 20
+- value: 6
+- value: 17
+tags: subtraction
+title: Wilted Woes
