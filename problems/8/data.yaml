@@ -1,0 +1,13 @@
+answer: 3
+description: Jimmy had 5 toy cars, but he lost 2 of them
+final: true
+id: 8
+image: image.png
+name: lost-and-found
+options:
+- value: 3
+- value: 7
+- value: 5
+- value: 9
+tags: subtraction
+title: Lost and Found
