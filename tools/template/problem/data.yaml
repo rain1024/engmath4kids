@@ -2,7 +2,7 @@ answer: 2
 description: null
 final: true
 id: 1
-image: cows.png
+image: image.png
 name: how-many-cows
 options:
 - value: 2

@@ -10,6 +10,6 @@ In the forest, Nutmeg, Pecan, Chestnut, and Walnut, four hungry squirrels, found
 <img src="enough.png" height="512"/>
 </p>
 
-<h3 align="center"><span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/win0.png">A. No</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
-<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">B. Yes</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<h3 align="center"><span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">A. Yes</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/win0.png">B. No</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
 </h3>

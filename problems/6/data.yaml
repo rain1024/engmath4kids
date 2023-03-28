@@ -7,9 +7,9 @@ id: 6
 image: sharing.png
 name: sharing-is-caring
 options:
+- value: 2
+- value: 3
 - value: 7
 - value: 5
-- value: 3
-- value: 2
 tags: addition
 title: Sharing is Caring

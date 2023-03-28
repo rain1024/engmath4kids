@@ -3,12 +3,12 @@ description: There is a bird named Tweetie sitting on a tree with seven other fr
   If three of the friends fly away, how many birds will be left on the tree?
 final: true
 id: 7
-image: cows.png
+image: image.png
 name: birds-on-a-branch
 options:
-- value: 3
-- value: 5
-- value: 10
 - value: 8
+- value: 3
+- value: 10
+- value: 5
 tags: subtraction
 title: 'Birds on a Branch: Who''s Left?'
