@@ -7,7 +7,7 @@ Julia has 6 balloons, but she accidentally lets go of 2.<br/>How many balloons d
 </h4>
 
 <p align="center">
-<img src="image.png" height="512"/>
+<img src="image1.png" height="512"/>
 </p>
 
 <h3 align="center"><span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">A. 3</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
