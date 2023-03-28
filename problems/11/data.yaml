@@ -7,8 +7,8 @@ image: image1.png
 name: Balloon Bonanza
 options:
 - value: 2
-- value: 3
-- value: 1
 - value: 4
+- value: 1
+- value: 3
 tags: subtraction
 title: Balloon Bonanza

@@ -6,9 +6,9 @@ id: 9
 image: image.png
 name: oopsie-daisy
 options:
-- value: 10
-- value: 5
-- value: 8
 - value: 3
+- value: 10
+- value: 8
+- value: 5
 tags: subtraction
 title: Oopsie Daisy

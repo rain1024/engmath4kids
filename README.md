@@ -25,6 +25,7 @@ This is a collection of math problems for kids. The problems are written in Mark
 * [9. Oopsie Daisy](problems/9)
 * [10. Wilted Woes](problems/10)
 * [11. Balloon Bonanza](problems/11)
+* [12. Bunch of Bananas](problems/12)
 ## Multiplication
 
 ## Division
