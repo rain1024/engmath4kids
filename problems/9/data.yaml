@@ -1,0 +1,14 @@
+answer: 5
+description: Sarah has 8 crayons, but she accidentally breaks 3 of them.<br/>How many
+  crayons does Sarah have left?
+final: true
+id: 9
+image: image.png
+name: oopsie-daisy
+options:
+- value: 5
+- value: 3
+- value: 10
+- value: 5
+tags: counting
+title: Oopsie Daisy
