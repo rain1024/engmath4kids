@@ -9,7 +9,7 @@ name: basketbal
 options:
 - value: Rectangle
 - value: Circle
-- value: Square
 - value: Triangle
+- value: Square
 tags: shape
 title: Basketball
