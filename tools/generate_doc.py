@@ -63,7 +63,7 @@ Problem {self.data['id']}: {self.data['title']}
 class Game:
     def __init__(self):
         # read all problems from problems folder
-        folders = listdir("problems")
+        folders = sorted(listdir("problems"))
         self.problems = [Problem(id) for id in folders]
     
     def build_problems(self, **kwargs):
