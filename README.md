@@ -20,7 +20,7 @@ This is a collection of math problems for kids. The problems are written in Mark
 * [6. Sharing is Caring](problems/6)
 ## Subtraction
 
-* [1. Birds on a Branch: Who's Left?](problems/7)
+* [7. Birds on a Branch: Who's Left?](problems/7)
 ## Multiplication
 
 ## Division

@@ -12,6 +12,6 @@ Problem 3: How many chickens are there?
 
 <h3 align="center"><span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">A. 6</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
 <span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">B. 9</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
-<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/win0.png">C. 3</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
-<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">D. 10</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">C. 10</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/win0.png">D. 3</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
 </h3>

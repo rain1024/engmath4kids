@@ -1,5 +1,5 @@
 <h1 align="center">
-Problem 1: Birds on a Branch: Who's Left?
+Problem 7: Birds on a Branch: Who's Left?
 </h1>
 
 <h4 align="center">
@@ -10,8 +10,8 @@ There is a bird named Tweetie sitting on a tree with seven other friends. If thr
 <img src="cows.png" height="512"/>
 </p>
 
-<h3 align="center"><span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">A. 10</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<h3 align="center"><span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">A. 3</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
 <span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/win0.png">B. 5</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
-<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">C. 8</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
-<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">D. 3</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">C. 10</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">D. 8</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
 </h3>
