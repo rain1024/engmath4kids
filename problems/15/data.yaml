@@ -1,0 +1,14 @@
+age: 7
+answer: 12
+description: If there are 4 lions in each cage and there are 3 cages<br/>How many
+  lions are there in total?
+final: true
+id: 15
+image: image.png
+options:
+- value: 10
+- value: 14
+- value: 12
+- value: 13
+tags: multiplication
+title: Animal Kingdom

@@ -1,0 +1,14 @@
+age: 7
+answer: 28
+description: If each car can seat 4 people and you want to take 7 cars<br/>How many
+  people can you fit in total?
+final: true
+id: 18
+image: image.png
+options:
+- value: 28
+- value: 30
+- value: 24
+- value: 26
+tags: counting
+title: Travel Time

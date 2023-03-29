@@ -1,0 +1,14 @@
+age: 7
+answer: 10
+description: If each toy costs $2 and you want to buy 5 toys<br/>How much money will
+  you need in total?
+final: true
+id: 14
+image: image.png
+options:
+- value: 6
+- value: 10
+- value: 15
+- value: 8
+tags: multiplication
+title: Toy Shop

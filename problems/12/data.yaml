@@ -1,3 +1,4 @@
+age: 7
 answer: 11
 description: There were 24 bananas in a bunch, but 13 of them were eaten. How many
   bananas are left in the bunch?
@@ -6,9 +7,9 @@ id: 12
 image: image2.png
 name: Bunch of Bananas
 options:
-- value: 11
-- value: 20
 - value: 9
 - value: 14
+- value: 20
+- value: 11
 tags: subtraction
 title: Bunch of Bananas

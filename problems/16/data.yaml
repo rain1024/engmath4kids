@@ -1,0 +1,14 @@
+age: 6
+answer: 2
+description: If each ice cream cone has 3 scoops of ice cream and you want to buy
+  2 cones<br/>how many scoops of ice cream will you have in total?
+final: true
+id: 1
+image: image.png
+options:
+- value: 1
+- value: 4
+- value: 3
+- value: 2
+tags: counting
+title: Sweet Treats

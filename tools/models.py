@@ -1,7 +1,10 @@
-from os import listdir
 import yaml
-import random
 import re
+from os.path import join, dirname, abspath
+from os import listdir
+import random
+
+
 
 class Problem:
     def __init__(self, id) -> None:
@@ -102,11 +105,3 @@ class Game:
     def build_game(self, **kwargs):
         self.build_problems(**kwargs)
         self.build_readme()
-
-if __name__ == '__main__':
-    import sys
-    is_force = False
-    if(len(sys.argv) > 1):
-        is_force = True
-    game = Game()
-    game.build_game(is_force=is_force)

@@ -10,3 +10,4 @@ options:
 - value: 1
 tags: counting
 title: How many cows are there?
+age: 6

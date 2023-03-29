@@ -1,3 +1,4 @@
+age: 6
 answer: 3
 description: Jimmy had 5 toy cars, but he lost 2 of them<br/>How many toy cars does
   he have left?
@@ -7,8 +8,8 @@ image: image.png
 name: lost-and-found
 options:
 - value: 9
-- value: 7
 - value: 5
+- value: 7
 - value: 3
 tags: subtraction
 title: Lost and Found
