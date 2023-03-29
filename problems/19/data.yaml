@@ -6,9 +6,9 @@ final: true
 id: 19
 image: https://github.com/rain1024/math/releases/download/artifacts/19.png
 options:
+- value: Cone
 - value: Cube
 - value: Sphere
 - value: Cylinder
-- value: Cone
 tags: shape
 title: Soccer Ball

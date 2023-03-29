@@ -8,7 +8,7 @@ id: 5
 image: enough.png
 name: hungry-squirrels
 options:
-- value: 'Yes'
 - value: 'No'
+- value: 'Yes'
 tags: comparing
 title: Hungry squirrels

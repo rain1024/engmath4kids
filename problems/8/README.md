@@ -11,7 +11,7 @@ Jimmy had 5 toy cars, but he lost 2 of them<br/>How many toy cars does he have l
 </p>
 
 <h3 align="center"><span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">A. 9</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
-<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">B. 7</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
-<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">C. 5</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
-<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/win0.png">D. 3</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">B. 5</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/win0.png">C. 3</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">D. 7</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
 </h3>

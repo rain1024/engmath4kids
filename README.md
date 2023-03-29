@@ -10,7 +10,7 @@ This is a collection of math problems for kids. The problems are written in Mark
 * [1. How many cows are there?](problems/1)
 * [2. How many sheeps are there?](problems/2)
 * [3. How many chickens are there?](problems/3)
-* [1. Sweet Treats](problems/16)
+* [16. Sweet Treats](problems/16)
 
 ## Shape
 
