@@ -1,0 +1,14 @@
+age: 8
+answer: Sphere
+description: Emily is playing soccer with her friends. The ball they are using is
+  round and has no corners.<br/>What shape is Emily's soccer ball?
+final: true
+id: 19
+image: https://github.com/rain1024/math/releases/download/artifacts/19.png
+options:
+- value: Cube
+- value: Sphere
+- value: Cylinder
+- value: Cone
+tags: shape
+title: Soccer Ball

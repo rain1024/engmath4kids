@@ -15,6 +15,7 @@ This is a collection of math problems for kids. The problems are written in Mark
 ## Shape
 
 * [4. Basketball](problems/4)
+* [19. Soccer Ball](problems/19)
 
 ## Comparing
 

@@ -7,9 +7,9 @@ id: 7
 image: image.png
 name: birds-on-a-branch
 options:
-- value: 5
 - value: 3
 - value: 8
 - value: 10
+- value: 5
 tags: subtraction
 title: 'Birds on a Branch: Who''s Left?'
