@@ -8,8 +8,8 @@ image: image.png
 name: oopsie-daisy
 options:
 - value: 8
+- value: 10
 - value: 3
 - value: 5
-- value: 10
 tags: subtraction
 title: Oopsie Daisy

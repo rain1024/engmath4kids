@@ -8,8 +8,8 @@ image: image.png
 name: Wilted Woes
 options:
 - value: 1
-- value: 6
 - value: 20
 - value: 17
+- value: 6
 tags: subtraction
 title: Wilted Woes

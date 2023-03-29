@@ -7,8 +7,8 @@ id: 8
 image: image.png
 name: lost-and-found
 options:
-- value: 9
 - value: 5
+- value: 9
 - value: 7
 - value: 3
 tags: subtraction

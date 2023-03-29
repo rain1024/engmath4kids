@@ -10,8 +10,8 @@ Zoe ordered 3 pizzas with 4 slices each. How many slices of pizza does she have 
 <img src="image.png" height="512"/>
 </p>
 
-<h3 align="center"><span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">A. 9</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
-<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">B. 7</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
-<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/win0.png">C. 12</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
-<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">D. 13</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<h3 align="center"><span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/win0.png">A. 12</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">B. 9</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">C. 13</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">D. 7</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
 </h3>

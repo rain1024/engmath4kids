@@ -11,8 +11,6 @@ This is a collection of math problems for kids. The problems are written in Mark
 * [2. How many sheeps are there?](problems/2)
 * [3. How many chickens are there?](problems/3)
 * [1. Sweet Treats](problems/16)
-* [17. Sports Day](problems/17)
-* [18. Travel Time](problems/18)
 
 ## Shape
 
@@ -40,6 +38,8 @@ This is a collection of math problems for kids. The problems are written in Mark
 * [13. Pizza Party](problems/13)
 * [14. Toy Shop](problems/14)
 * [15. Animal Kingdom](problems/15)
+* [17. Sports Day](problems/17)
+* [18. Travel Time](problems/18)
 
 ## Division
 
