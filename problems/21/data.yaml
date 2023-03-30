@@ -1,0 +1,16 @@
+age: 9
+answer: 8:00 AM
+description: Sarah woke up late for school and needs to be there at 8:30 AM. She quickly
+  brushes her teeth, puts on her clothes and eats breakfast. If it takes her 15 minutes
+  to get dressed, 5 minutes to brush her teeth, and 10 minutes to eat breakfast,<br/>
+  what time does she need to wake up in the morning to make it to school on time?
+final: true
+id: 21
+image: https://github.com/rain1024/math/releases/download/artifacts/21.png
+options:
+- value: 8:10 AM
+- value: 7:50 AM
+- value: 7:30 AM
+- value: 8:00 AM
+tags: counting
+title: Late for School

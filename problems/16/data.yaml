@@ -6,9 +6,9 @@ final: true
 id: 16
 image: image.png
 options:
-- value: 4
-- value: 3
-- value: 2
 - value: 1
+- value: 4
+- value: 2
+- value: 3
 tags: counting
 title: Sweet Treats

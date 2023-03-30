@@ -6,9 +6,9 @@ final: true
 id: 14
 image: image.png
 options:
+- value: 8
 - value: 15
 - value: 6
 - value: 10
-- value: 8
 tags: multiplication
 title: Toy Shop

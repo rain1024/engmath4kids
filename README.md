@@ -12,6 +12,7 @@ This is a collection of math problems for kids. The problems are written in Mark
 * [3. How many chickens are there?](problems/3)
 * [16. Sweet Treats](problems/16)
 * [20. Baseball Game](problems/20)
+* [21. Late for School](problems/21)
 
 ## Shape
 
