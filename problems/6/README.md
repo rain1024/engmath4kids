@@ -12,6 +12,6 @@ Samantha and Jack are classmates who love to share their snacks during recess. S
 
 <h3 align="center"><span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/win0.png">A. 5</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
 <span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">B. 2</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
-<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">C. 3</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
-<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">D. 7</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">C. 7</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">D. 3</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
 </h3>

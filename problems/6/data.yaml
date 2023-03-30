@@ -10,7 +10,7 @@ name: sharing-is-caring
 options:
 - value: 5
 - value: 2
-- value: 3
 - value: 7
+- value: 3
 tags: addition
 title: Sharing is Caring

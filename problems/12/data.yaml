@@ -7,9 +7,9 @@ id: 12
 image: image2.png
 name: Bunch of Bananas
 options:
-- value: 14
-- value: 11
 - value: 20
+- value: 14
 - value: 9
+- value: 11
 tags: subtraction
 title: Bunch of Bananas

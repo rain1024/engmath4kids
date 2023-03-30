@@ -7,9 +7,9 @@ id: 10
 image: image.png
 name: Wilted Woes
 options:
-- value: 17
-- value: 1
 - value: 20
+- value: 17
 - value: 6
+- value: 1
 tags: subtraction
 title: Wilted Woes
