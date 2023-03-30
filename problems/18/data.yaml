@@ -7,8 +7,8 @@ id: 18
 image: image.png
 options:
 - value: 30
-- value: 24
-- value: 26
 - value: 28
+- value: 26
+- value: 24
 tags: multiplication
 title: Travel Time

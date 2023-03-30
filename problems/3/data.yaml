@@ -7,8 +7,8 @@ image: chickens.png
 name: how-many-chickens
 options:
 - value: 9
+- value: 10
 - value: 3
 - value: 6
-- value: 10
 tags: counting
 title: How many chickens are there?

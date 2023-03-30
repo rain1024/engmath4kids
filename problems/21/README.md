@@ -11,7 +11,7 @@ Sarah woke up late for school and needs to be there at 8:30 AM. She quickly brus
 </p>
 
 <h3 align="center"><span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">A. 8:10 AM</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
-<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">B. 7:50 AM</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
-<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">C. 7:30 AM</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">B. 7:30 AM</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">C. 7:50 AM</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
 <span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/win0.png">D. 8:00 AM</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
 </h3>

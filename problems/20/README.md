@@ -12,6 +12,6 @@ The baseball game has just started. The players are warming up by throwing the b
 
 <h3 align="center"><span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">A. 400</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
 <span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/win0.png">B. 500</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
-<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">C. 50</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
-<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">D. 250</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">C. 250</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">D. 50</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
 </h3>

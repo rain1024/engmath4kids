@@ -9,8 +9,8 @@ id: 21
 image: https://github.com/rain1024/math/releases/download/artifacts/21.png
 options:
 - value: 8:10 AM
-- value: 7:50 AM
 - value: 7:30 AM
+- value: 7:50 AM
 - value: 8:00 AM
 tags: time
 title: Late for School

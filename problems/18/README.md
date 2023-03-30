@@ -11,7 +11,7 @@ If each car can seat 4 people and you want to take 7 cars<br/>How many people ca
 </p>
 
 <h3 align="center"><span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">A. 30</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
-<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">B. 24</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/win0.png">B. 28</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
 <span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">C. 26</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
-<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/win0.png">D. 28</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span><a href="https://raw.githubusercontent.com/rain1024/math/main/assets/lose0.png">D. 24</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
 </h3>
