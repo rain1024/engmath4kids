@@ -6,9 +6,9 @@ final: true
 id: 17
 image: image.png
 options:
+- value: 15
 - value: 10
 - value: 16
-- value: 15
 - value: 14
 tags: multiplication
 title: Sports Day

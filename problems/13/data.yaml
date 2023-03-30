@@ -6,8 +6,8 @@ final: true
 id: 13
 image: image.png
 options:
-- value: 12
 - value: 9
+- value: 12
 - value: 7
 - value: 13
 tags: multiplication
