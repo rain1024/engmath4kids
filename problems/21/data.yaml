@@ -12,5 +12,5 @@ options:
 - value: 7:50 AM
 - value: 7:30 AM
 - value: 8:00 AM
-tags: counting
+tags: time
 title: Late for School
