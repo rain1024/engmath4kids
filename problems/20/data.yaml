@@ -1,0 +1,15 @@
+age: 8
+answer: 500
+description: The baseball game has just started. The players are warming up by throwing
+  the ball back and forth. The first few numbers they count are 200, 300, 400, ?,
+  600, 700. <br/>What number is in the missing position?
+final: true
+id: 20
+image: https://github.com/rain1024/math/releases/download/artifacts/20.png
+options:
+- value: 250
+- value: 50
+- value: 500
+- value: 400
+tags: counting
+title: Baseball Game
