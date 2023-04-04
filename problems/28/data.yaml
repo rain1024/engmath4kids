@@ -7,8 +7,8 @@ final: true
 id: 28
 image: problem_28.png
 options:
-- value: 2
 - value: 5
+- value: 2
 - value: 4
 - value: 3
 tags: counting

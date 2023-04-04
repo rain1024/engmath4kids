@@ -131,5 +131,6 @@ def generate(problem_id, all, force):
     game = Game()
     game.build_readme()
 
+
 if __name__ == '__main__':
     generate()
