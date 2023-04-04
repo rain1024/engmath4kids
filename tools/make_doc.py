@@ -128,6 +128,8 @@ def generate(problem_id, all, force):
     problem = Problem(problem_id)
     problem.build(force)
     problem.save_config()
+    game = Game()
+    game.build_readme()
 
 if __name__ == '__main__':
     generate()
