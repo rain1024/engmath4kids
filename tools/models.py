@@ -1,9 +1,7 @@
 import yaml
 import re
-from os.path import join, dirname, abspath
 from os import listdir
 import random
-
 
 
 class Problem:
@@ -14,20 +12,20 @@ class Problem:
             data = yaml.safe_load(f)
         self.data = data
 
-    def build(self, is_force =  False):
+    def build(self, is_force=False):
         if "final" in self.data and self.data["final"] and not is_force:
             return
         # write README.md file
-        if not "title" in self.data:
+        if "title" not in self.data:
             raise Exception(f"Title in problem {self.id} is not defined")
 
-        if not "image" in self.data:
+        if "image" not in self.data:
             raise Exception(f"Image in problem {self.id} is not defined")
-        
+
         options = self.data['options']
         answer = self.data['answer']
         random.shuffle(options)
-        
+
         content = f"""\
 <h1 align="center">
 Problem {self.data['id']}: {self.data['title']}
@@ -55,27 +53,28 @@ Problem {self.data['id']}: {self.data['title']}
             content += "&nbsp;&nbsp;&nbsp;&nbsp;\n"
         content += "</h3>"
 
-        with open(f"problems/{self.id}/README.md", "w") as f:       
+        with open(f"problems/{self.id}/README.md", "w") as f:  
             f.write(content)
         self.data['final'] = True
-    
+
     def save_config(self):
         with open(self.config_file, "w") as f:
             yaml.dump(self.data, f)
+
 
 class Game:
     def __init__(self):
         # read all problems from problems folder
         folders = sorted([int(x) for x in listdir("problems")])
         self.problems = [Problem(id) for id in folders]
-    
+
     def build_problems(self, **kwargs):
         is_force = kwargs.get('is_force', False)
         for problem in self.problems:
             problem.build(is_force)
             problem.save_config()
         print(f"Problems built: {len(self.problems)}")
-    
+
     def build_readme(self):
         # read game data
         with open("game_data.yaml") as f:
@@ -88,7 +87,7 @@ class Game:
         # replace <!-- BEGIN MATH PROBLEMS --> ... <!-- END MATH PROBLEMS -->
         # with the new table
         match = re.compile(r"<!-- BEGIN MATH PROBLEMS -->.*<!-- END MATH PROBLEMS -->", re.MULTILINE | re.DOTALL)
-        text = f"<!-- BEGIN MATH PROBLEMS -->\n\n"
+        text = "<!-- BEGIN MATH PROBLEMS -->\n\n"
 
         for topic in topics:
             text += f"\n## {topic['name']}\n\n"
@@ -96,7 +95,7 @@ class Game:
                 tags = problem.data['tags'].split(',')
                 if topic['id'] in tags:
                     text += f"* [{problem.data['id']}. {problem.data['title']}](problems/{problem.id})\n"
-        text += f"\n<!-- END MATH PROBLEMS -->"
+        text += "\n<!-- END MATH PROBLEMS -->"
 
         content = re.sub(match, text, content)
         with open("README.md", "w") as f:

@@ -1,7 +1,7 @@
 import os
 import sys
 import shutil
-from os.path import join, dirname
+from os.path import join
 
 script_folder = os.path.dirname(os.path.realpath(__file__))
 project_folder = os.path.dirname(script_folder)
