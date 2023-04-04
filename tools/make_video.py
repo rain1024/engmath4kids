@@ -6,11 +6,17 @@ import PIL
 from PIL import ImageDraw, ImageFont
 from gtts import gTTS
 from moviepy.editor import ImageClip, AudioFileClip, CompositeAudioClip
+import click
+from tools.models import Problem
 
-# get realpath of current directory
+
 wd = os.path.dirname(os.path.realpath(__file__))
+CWD = os.path.dirname(os.path.realpath(__file__))
+PROJECT_FOLDER = os.path.dirname(CWD)
+MEDIA_FOLDER = join(PROJECT_FOLDER, 'media')
+PROBLEMS_FOLDER = join(PROJECT_FOLDER, "problems")
+SOUND_FOLDER = join(PROJECT_FOLDER, "assets", "sounds")
 pd = os.path.dirname(wd)
-problem_id = 27
 
 
 def create_image_by_plt():
@@ -80,46 +86,92 @@ def create_video_frame_image():
     pass
 
 
-def make_sound():
-    global problem_id
-    text = """\
-Problem 27: Passing the Baton
-Tom, Emily, John, and Sarah are on the school's relay race team.
-Each runner will run a distance of 400 meters before passing the baton to the next runner.
-Tom runs 1 kilometer in 7 minutes 30 seconds, Emily in 8 minutes 45 seconds, John in 10 minutes, and Sarah in 11 minutes 15 seconds.
-
-How long (in seconds) will it take the team to complete the entire 1600-meter relay race?
-"""
+def make_sound(problem_id):
+    problem = Problem(problem_id)
+    data = problem.data
+    title = data["title"]
+    description = data["description"]
+    text = f"Problem {problem_id}: {title}\n{description}"
+    print(text)
     tts = gTTS(text=text, lang='en')
 
-    tts.save(join(wd, f"{problem_id}.wav"))
+    tts.save(join(MEDIA_FOLDER, f"{problem_id}.wav"))
 
 
-def make_video():
+def make_video(problem_id):
     VIDEO_DURATION = 40
-    global problem_id
-    id = problem_id
-    image_clip = ImageClip(join(wd, f"problem_{id}.png")).set_duration(VIDEO_DURATION)
+    problem = Problem(problem_id)
+    print(problem)
+    image_path = join(PROBLEMS_FOLDER, problem_id, f"problem_{problem_id}.png")
+    image_clip = ImageClip(image_path).set_duration(VIDEO_DURATION)
     bg_files = [
         "cute_bg.mp3",
         "bg_cute_funny_cat_1pGgn9rfGZU.mp3",
         "bg_cute_furry_friends_79w0HiP0uA0.mp3",
         "bg_cute_cutest_bunny_UeKehu5DE0Y.mp3",
         "bg_cute_hide_and_seek_ktBjO98Zm6U.mp3",
-        "bg_cute_happy_footstesp_RYsDvuSd-OA.mp3",
+        "bg_cute_happy_footsteps_RYsDvuSd-OA.mp3",
     ]
     bg_file = bg_files[5]
-    bg_audio = AudioFileClip(join(wd, bg_file)).set_duration(VIDEO_DURATION).set_start(0).volumex(0.2).audio_fadein(0.5).audio_fadeout(2).audio_fadeout(2)
-    transcript_audio = AudioFileClip(join(wd, f"{id}.wav")).set_start(0.5)
+    bg_audio = AudioFileClip(join(SOUND_FOLDER, bg_file))\
+        .set_duration(VIDEO_DURATION)\
+        .set_start(0).volumex(0.2).audio_fadein(0.5).audio_fadeout(2)\
+        .audio_fadeout(2)
+    transcript_audio = AudioFileClip(join(MEDIA_FOLDER, f"{problem_id}.wav"))\
+        .set_start(0.5)
     audio = CompositeAudioClip([transcript_audio, bg_audio])
 
     video = image_clip.set_audio(audio)
     video.fps = 30
-    video.write_videofile(join(wd, f"{id}.mp4"))
+    video.write_videofile(join(MEDIA_FOLDER, f"{problem_id}.mp4"))
+
+
+@click.command()
+@click.argument("problem_id", required=True)
+@click.argument("parts", required=False)
+def make(problem_id, parts="all"):
+    """
+    make video for a problem
+
+    :param problem_id: problem id
+    :param parts: parts to make (either "all" or "sound" or "video")
+    """
+    # VIDEO_DURATION = 40
+    problem = Problem(problem_id)
+    print(problem)
+    if parts == "all":
+        components = ["sound", "video"]
+    elif parts == "sound":
+        components = ["sound"]
+    elif parts == "video":
+        components = ["video"]
+
+    for component in components:
+        if component == "sound":
+            make_sound(problem_id)
+        elif component == "video":
+            make_video(problem_id)
+    # image_clip = ImageClip(join(wd, f"problem_{id}.png")).set_duration(VIDEO_DURATION)
+    # bg_files = [
+    #     "cute_bg.mp3",
+    #     "bg_cute_funny_cat_1pGgn9rfGZU.mp3",
+    #     "bg_cute_furry_friends_79w0HiP0uA0.mp3",
+    #     "bg_cute_cutest_bunny_UeKehu5DE0Y.mp3",
+    #     "bg_cute_hide_and_seek_ktBjO98Zm6U.mp3",
+    #     "bg_cute_happy_footstesp_RYsDvuSd-OA.mp3",
+    # ]
+    # bg_file = bg_files[5]
+    # bg_audio = AudioFileClip(join(wd, bg_file)).set_duration(VIDEO_DURATION).set_start(0).volumex(0.2).audio_fadein(0.5).audio_fadeout(2).audio_fadeout(2)
+    # transcript_audio = AudioFileClip(join(wd, f"{id}.wav")).set_start(0.5)
+    # audio = CompositeAudioClip([transcript_audio, bg_audio])
+
+    # video = image_clip.set_audio(audio)
+    # video.fps = 30
+    # video.write_videofile(join(wd, f"{id}.mp4"))
 
 
 if __name__ == '__main__':
     # create_image_by_plt()
     # create_image_by_pil()
     # make_sound()
-    make_video()
+    make()
