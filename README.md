@@ -56,6 +56,7 @@ This is a collection of math problems for kids. The problems are written in Mark
 
 ## Pattern
 
+* [30. The Missing Numbers](problems/30)
 
 ## Time
 
