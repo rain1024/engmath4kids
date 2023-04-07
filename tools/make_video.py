@@ -7,7 +7,7 @@ from PIL import ImageDraw, ImageFont
 from gtts import gTTS
 from moviepy.editor import ImageClip, AudioFileClip, CompositeAudioClip
 import click
-from tools.models import Problem
+from tools.models import AudioLibrary, Problem
 
 
 wd = os.path.dirname(os.path.realpath(__file__))
@@ -98,27 +98,31 @@ def make_sound(problem_id):
     tts.save(join(MEDIA_FOLDER, f"{problem_id}.wav"))
 
 
-def make_video(problem_id):
-    VIDEO_DURATION = 40
+def make_video(problem_id, background_sound=None):
+    transcript_audio = AudioFileClip(join(MEDIA_FOLDER, f"{problem_id}.wav"))\
+        .set_start(0.5)
+    print("transcript_audio duration", transcript_audio.duration)
+
+    # set video duration based on transcript audtion duration
+    if transcript_audio.duration < 30:
+        VIDEO_DURATION = 30
+    else:
+        VIDEO_DURATION = int(transcript_audio.duration / 10) * 10 + 10
+    print("video duration", VIDEO_DURATION)
+
     problem = Problem(problem_id)
     print(problem)
     image_path = join(PROBLEMS_FOLDER, problem_id, f"problem_{problem_id}.png")
     image_clip = ImageClip(image_path).set_duration(VIDEO_DURATION)
-    bg_files = [
-        "cute_bg.mp3",
-        "bg_cute_funny_cat_1pGgn9rfGZU.mp3",
-        "bg_cute_furry_friends_79w0HiP0uA0.mp3",
-        "bg_cute_cutest_bunny_UeKehu5DE0Y.mp3",
-        "bg_cute_hide_and_seek_ktBjO98Zm6U.mp3",
-        "bg_cute_happy_footsteps_RYsDvuSd-OA.mp3",
-    ]
-    bg_file = bg_files[5]
+    if background_sound:
+        bg_file = AudioLibrary.get(background_sound)
+    else:
+        bg_file = AudioLibrary.get_random()
+    print(f"Get sound {bg_file} from library")
     bg_audio = AudioFileClip(join(SOUND_FOLDER, bg_file))\
         .set_duration(VIDEO_DURATION)\
         .set_start(0).volumex(0.2).audio_fadein(0.5).audio_fadeout(2)\
         .audio_fadeout(2)
-    transcript_audio = AudioFileClip(join(MEDIA_FOLDER, f"{problem_id}.wav"))\
-        .set_start(0.5)
     audio = CompositeAudioClip([transcript_audio, bg_audio])
 
     video = image_clip.set_audio(audio)
@@ -129,45 +133,28 @@ def make_video(problem_id):
 @click.command()
 @click.argument("problem_id", required=True)
 @click.argument("parts", required=False)
-def make(problem_id, parts="all"):
+@click.option("--background", "-bg", required=False)
+def make(problem_id, parts="all", background=None):
     """
     make video for a problem
 
     :param problem_id: problem id
     :param parts: parts to make (either "all" or "sound" or "video")
+    :param background: background sound
     """
-    # VIDEO_DURATION = 40
-    problem = Problem(problem_id)
-    print(problem)
-    if parts == "all":
+    if parts == "all" or parts is None:
         components = ["sound", "video"]
     elif parts == "sound":
         components = ["sound"]
     elif parts == "video":
         components = ["video"]
+    print("components", components)
 
     for component in components:
         if component == "sound":
             make_sound(problem_id)
         elif component == "video":
-            make_video(problem_id)
-    # image_clip = ImageClip(join(wd, f"problem_{id}.png")).set_duration(VIDEO_DURATION)
-    # bg_files = [
-    #     "cute_bg.mp3",
-    #     "bg_cute_funny_cat_1pGgn9rfGZU.mp3",
-    #     "bg_cute_furry_friends_79w0HiP0uA0.mp3",
-    #     "bg_cute_cutest_bunny_UeKehu5DE0Y.mp3",
-    #     "bg_cute_hide_and_seek_ktBjO98Zm6U.mp3",
-    #     "bg_cute_happy_footstesp_RYsDvuSd-OA.mp3",
-    # ]
-    # bg_file = bg_files[5]
-    # bg_audio = AudioFileClip(join(wd, bg_file)).set_duration(VIDEO_DURATION).set_start(0).volumex(0.2).audio_fadein(0.5).audio_fadeout(2).audio_fadeout(2)
-    # transcript_audio = AudioFileClip(join(wd, f"{id}.wav")).set_start(0.5)
-    # audio = CompositeAudioClip([transcript_audio, bg_audio])
-
-    # video = image_clip.set_audio(audio)
-    # video.fps = 30
-    # video.write_videofile(join(wd, f"{id}.mp4"))
+            make_video(problem_id, background)
 
 
 if __name__ == '__main__':

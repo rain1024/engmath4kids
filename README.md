@@ -49,6 +49,7 @@ This is a collection of math problems for kids. The problems are written in Mark
 * [15. Animal Kingdom](problems/15)
 * [17. Sports Day](problems/17)
 * [18. Travel Time](problems/18)
+* [29. The Secret Code](problems/29)
 
 ## Division
 
