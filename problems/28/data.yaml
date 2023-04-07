@@ -1,0 +1,15 @@
+age: 6
+answer: 3
+description: Tom and Emily found a mysterious note that reads, "Meet me behind the
+  school at 6 pm if you want to find the missing medals." It's currently 3 pm. How
+  many hours do they have to wait before they can go to the meeting spot?
+final: true
+id: 28
+image: problem_28.png
+options:
+- value: 3
+- value: 5
+- value: 2
+- value: 4
+tags: counting
+title: Time to Meet

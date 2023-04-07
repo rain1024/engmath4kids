@@ -1,7 +1,13 @@
 from os import listdir
+import os
 import yaml
 import random
 import re
+import click
+
+
+CWD = os.path.dirname(os.path.realpath(__file__))
+PROJECT_FOLDER = os.path.dirname(CWD)
 
 
 class Problem:
@@ -106,10 +112,25 @@ class Game:
         self.build_readme()
 
 
-if __name__ == '__main__':
-    import sys
-    is_force = False
-    if len(sys.argv) > 1:
-        is_force = True
+@click.command()
+@click.option("-a", "--all", is_flag=True, help="Build all problems")
+@click.option("-f", "--force", is_flag=True, help="Force build")
+    @click.argument("problem_id", required=False)
+def generate(problem_id, all, force):
+    # is_force = False
+    # if len(sys.argv) > 1:
+    #     is_force = True
+    # game = Game()
+    # game.build_game(is_force=is_force)
+    if (problem_id is None and not all):
+        print("Either problem_id or --all must be specified")
+
+    problem = Problem(problem_id)
+    problem.build(force)
+    problem.save_config()
     game = Game()
-    game.build_game(is_force=is_force)
+    game.build_readme()
+
+
+if __name__ == '__main__':
+    generate()

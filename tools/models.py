@@ -2,6 +2,7 @@ import yaml
 import re
 from os import listdir
 import random
+import time
 
 
 class Problem:
@@ -53,7 +54,7 @@ Problem {self.data['id']}: {self.data['title']}
             content += "&nbsp;&nbsp;&nbsp;&nbsp;\n"
         content += "</h3>"
 
-        with open(f"problems/{self.id}/README.md", "w") as f:  
+        with open(f"problems/{self.id}/README.md", "w") as f:
             f.write(content)
         self.data['final'] = True
 
@@ -104,3 +105,29 @@ class Game:
     def build_game(self, **kwargs):
         self.build_problems(**kwargs)
         self.build_readme()
+
+
+class AudioLibrary:
+    sounds = {
+        "bewildered": "bg_cute_bewildered_bQfO4z_mQUI.mp3",
+        "cutest_bunny": "bg_cute_cutest_bunny_UeKehu5DE0Y.mp3",
+        "funny_cat": "bg_cute_funny_cat_1pGgn9rfGZU.mp3",
+        "furry_friends": "bg_cute_furry_friends_79w0HiP0uA0.mp3",
+        "happy_footsteps": "bg_cute_happy_footsteps_RYsDvuSd-OA.mp3",
+        "hide_and_seek": "bg_cute_hide_and_seek_ktBjO98Zm6U.mp3",
+        "lazy_morning_coffee": "bg_cute_lazy_morning_coffee_CQ7vfhjbQBQ.mp3",
+        "pretty_things": "bg_cute_pretty_things_sSMosqueSuQ.mp3",
+        "riding_the_pink": "bg_cute_riding_the_pink_bus_3co7k1od8X4.mp3",
+        "cute": "cute_bg.mp3",
+    }
+
+    @staticmethod
+    def get(sound_id):
+        return AudioLibrary.sounds[sound_id]
+
+    def get_random():
+        timestamp = int(time.time()*1000.0)
+        random.seed(timestamp)
+        sounds = list(AudioLibrary.sounds.values())
+        sound = random.choice(sounds)
+        return sound

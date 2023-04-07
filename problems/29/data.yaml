@@ -1,0 +1,16 @@
+age: 7
+answer: 12
+description: 'When Tom and Emily arrive at the meeting spot behind the school, they
+  find a locked box with a note attached to it. The note reads, Solve the following
+  equation to find the code for the lock: 4 x 5 : 2 + 3 - 1. What is the code for
+  the lock?'
+final: true
+id: 29
+image: 29.png
+options:
+- value: 14
+- value: 15
+- value: 17
+- value: 12
+tags: multiplication
+title: The Secret Code

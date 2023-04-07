@@ -12,6 +12,13 @@ This is a collection of math problems for kids. The problems are written in Mark
 * [3. How many chickens are there?](problems/3)
 * [16. Sweet Treats](problems/16)
 * [20. Baseball Game](problems/20)
+* [1. How many cows are there?](problems/22)
+* [1. How many cows are there?](problems/23)
+* [1. How many cows are there?](problems/24)
+* [1. How many cows are there?](problems/25)
+* [1. How many cows are there?](problems/26)
+* [1. How many cows are there?](problems/27)
+* [28. Time to Meet](problems/28)
 
 ## Shape
 
@@ -42,6 +49,7 @@ This is a collection of math problems for kids. The problems are written in Mark
 * [15. Animal Kingdom](problems/15)
 * [17. Sports Day](problems/17)
 * [18. Travel Time](problems/18)
+* [29. The Secret Code](problems/29)
 
 ## Division
 
