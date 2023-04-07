@@ -115,7 +115,7 @@ class Game:
 @click.command()
 @click.option("-a", "--all", is_flag=True, help="Build all problems")
 @click.option("-f", "--force", is_flag=True, help="Force build")
-    @click.argument("problem_id", required=False)
+@click.argument("problem_id", required=False)
 def generate(problem_id, all, force):
     # is_force = False
     # if len(sys.argv) > 1:

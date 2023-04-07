@@ -1,0 +1,16 @@
+age: 8
+answer: 2437, 2654, 3305
+description: 'After opening the locked box, Tom and Emily find another note with a
+  sequence of numbers on it. The note reads, Fill in the missing numbers in the following
+  sequence: 2003, 2220, __, __, 2871, 3088, __. What are the missing numbers in the
+  sequence? '
+final: true
+id: 30
+image: problem_30.png
+options:
+- value: 2437, 2653, 3305
+- value: 2400, 2654, 3304
+- value: 2437, 2654, 3305
+- value: 2400, 2653, 3304
+tags: pattern
+title: The Missing Numbers
